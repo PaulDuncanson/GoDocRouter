@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:xmlns:loext:1.0" xmlns:field="urn:opennames:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:opennames:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" version="1.2" mimetype="application/vnd.oasis.opendocument.graphics">
+ <meta><meta:creation-date>2017-07-25T17:26:49.682481000</meta:creation-date><dc:date>2017-07-28T15:19:14.014417000</dc:date><meta:editing-duration>PT2H9M2S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/5.3.1.2$MacOSX_X86_64 LibreOffice_project/e80a0e0fd1875e1696614d24c32df0f95f03deb2</meta:generator><meta:document-statistic meta:object-count="18"/></meta>
+ <settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">-2305</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">-4034</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">29859</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">28959</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item config:name="GridIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="GridIsFront" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToPageMargins" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToSnapLines" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToObjectFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToObjectPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsPlusHandlesAlwaysVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsFrameDragSingles" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="EliminatePolyPointLimitAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="IsEliminatePolyPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="VisibleLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="PrintableLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="LockedLayers" config:type="base64Binary"/>
+     <config:config-item config:name="NoAttribs" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="RulerIsVisible" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">0</config:config-item>
+     <config:config-item config:name="IsLayerMode" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
+     <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-2305</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-4034</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29860</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">28960</config:config-item>
+     <config:config-item config:name="GridCoarseWidth" config:type="int">1270</config:config-item>
+     <config:config-item config:name="GridCoarseHeight" config:type="int">1270</config:config-item>
+     <config:config-item config:name="GridFineWidth" config:type="int">127</config:config-item>
+     <config:config-item config:name="GridFineHeight" config:type="int">127</config:config-item>
+     <config:config-item config:name="GridSnapWidthXNumerator" config:type="int">127</config:config-item>
+     <config:config-item config:name="GridSnapWidthXDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="GridSnapWidthYNumerator" config:type="int">127</config:config-item>
+     <config:config-item config:name="GridSnapWidthYDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="ZoomOnPage" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="BitmapTableURL" config:type="string">$(inst)/Resources/palette%3B$(user)/config/standard.sob</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="ColorTableURL" config:type="string">$(inst)/Resources/palette/standard.soc</config:config-item>
+   <config:config-item config:name="DashTableURL" config:type="string">$(inst)/Resources/palette%3B$(user)/config/standard.sod</config:config-item>
+   <config:config-item config:name="DefaultTabStop" config:type="int">1270</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GradientTableURL" config:type="string">$(inst)/Resources/palette%3B$(user)/config/standard.sog</config:config-item>
+   <config:config-item config:name="HatchTableURL" config:type="string">$(inst)/Resources/palette%3B$(user)/config/standard.soh</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBooklet" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBookletBack" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintBookletFront" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintDate" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintFitPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintHiddenPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintPageName" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTilePage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTime" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LineEndTableURL" config:type="string">$(inst)/Resources/palette%3B$(user)/config/standard.soe</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MeasureUnit" config:type="short">7</config:config-item>
+   <config:config-item config:name="PageNumberFormat" config:type="int">4</config:config-item>
+   <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ScaleDenominator" config:type="int">1</config:config-item>
+   <config:config-item config:name="ScaleNumerator" config:type="int">1</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </settings>
+ <scripts>
+  <script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </script>
+ </scripts>
+ <font-face-decls>
+  <style:font-face style:name="Monaco" svg:font-family="Monaco"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial Unicode MS" svg:font-family="&apos;Arial Unicode MS&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+ </font-face-decls>
+ <styles>
+  <marker name="Arrow" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" fill-color="#729fcf" fo:wrap-option="no-wrap"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="24pt" fo:language="en" fo:country="US" style:font-name-asian="Tahoma" style:font-size-asian="24pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Tahoma" style:font-size-complex="24pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:style style:name="standard" style:family="graphic">
+   <style:graphic-properties stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#3465a4" marker-start-width="0.2cm" marker-start-center="false" marker-end-width="0.2cm" marker-end-center="false" fill="solid" fill-color="#729fcf" textarea-horizontal-align="justify" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" shadow="hidden" shadow-offset-x="0.2cm" shadow-offset-y="0.2cm" shadow-color="#808080">
+    <text:list-style style:name="standard">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial Unicode MS" style:font-family-asian="&apos;Arial Unicode MS&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial Unicode MS" style:font-family-complex="&apos;Arial Unicode MS&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="objectwitharrow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="solid" svg:stroke-width="0.15cm" svg:stroke-color="#000000" marker-start="Arrow" marker-start-width="0.7cm" marker-start-center="true" marker-end-width="0.3cm"/>
+  </style:style>
+  <style:style style:name="objectwithshadow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties shadow="visible" shadow-offset-x="0.2cm" shadow-offset-y="0.2cm" shadow-color="#808080"/>
+  </style:style>
+  <style:style style:name="objectwithoutfill" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-color="#000000" fill="none"/>
+  </style:style>
+  <style:style style:name="Object_20_with_20_no_20_fill_20_and_20_no_20_line" style:display-name="Object with no fill and no line" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+  </style:style>
+  <style:style style:name="text" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+  </style:style>
+  <style:style style:name="textbody" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:text-properties fo:font-size="16pt"/>
+  </style:style>
+  <style:style style:name="textbodyjustfied" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:paragraph-properties fo:text-align="justify"/>
+  </style:style>
+  <style:style style:name="textbodyindent" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.6cm"/>
+  </style:style>
+  <style:style style:name="title" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:text-properties fo:font-size="44pt"/>
+  </style:style>
+  <style:style style:name="title1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="solid" fill-color="#008080" shadow="visible" shadow-offset-x="0.2cm" shadow-offset-y="0.2cm" shadow-color="#808080"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="title2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-width="0.05cm" fill-color="#ffcc99" shadow="visible" shadow-offset-x="0.2cm" shadow-offset-y="0.2cm" shadow-color="#808080"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0.2cm" fo:margin-top="0.1cm" fo:margin-bottom="0.1cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="36pt"/>
+  </style:style>
+  <style:style style:name="headline" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="headline1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="18pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="headline2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="measure" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="solid" svg:stroke-color="#000000" marker-start="Arrow" marker-start-width="0.2cm" marker-end="Arrow" marker-end-width="0.2cm" fill="none" show-unit="true"/>
+   <style:text-properties fo:font-size="12pt"/>
+  </style:style>
+ </styles>
+ <automatic-styles>
+  <style:page-layout style:name="PM0">
+   <style:page-layout-properties fo:margin-top="1cm" fo:margin-bottom="1cm" fo:margin-left="1cm" fo:margin-right="1cm" fo:page-width="21.59cm" fo:page-height="27.94cm" style:print-orientation="portrait"/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties background-size="border" fill="none"/>
+  </style:style>
+  <style:style style:name="dp2" style:family="drawing-page"/>
+  <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="2.547cm" fo:min-width="6.739cm"/>
+  </style:style>
+  <style:style style:name="gr2" style:family="graphic" style:parent-style-name="objectwithoutfill">
+   <style:graphic-properties marker-end="Arrow" marker-end-width="0.3cm" fill="none" textarea-vertical-align="middle"/>
+  </style:style>
+  <style:style style:name="gr3" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="1.323cm" fo:min-width="14.867cm"/>
+  </style:style>
+  <style:style style:name="gr4" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="1.277cm" fo:min-width="11.793cm"/>
+  </style:style>
+  <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="1.787cm" fo:min-width="25.281cm"/>
+  </style:style>
+  <style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties stroke="none" svg:stroke-color="#000000" fill="none" fill-color="#ffffff" fo:min-height="1.653cm"/>
+  </style:style>
+  <style:style style:name="gr7" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="2.55cm" fo:min-width="6.935cm"/>
+  </style:style>
+  <style:style style:name="gr8" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="2.29cm" fo:min-width="7.501cm"/>
+  </style:style>
+  <style:style style:name="gr9" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="2.29cm" fo:min-width="9.406cm"/>
+  </style:style>
+  <style:style style:name="gr10" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties textarea-horizontal-align="justify" textarea-vertical-align="middle" auto-grow-height="false" fo:min-height="2.671cm" fo:min-width="6.612cm"/>
+  </style:style>
+  <style:style style:name="gr11" style:family="graphic" style:parent-style-name="objectwithoutfill">
+   <style:graphic-properties marker-end="Arrow" marker-end-width="0.3cm" fill="none" textarea-vertical-align="middle" fontwork-style="rotate"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="17.8999996185303pt"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph">
+   <loext:graphic-properties fill="none"/>
+   <style:paragraph-properties fo:text-align="center"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph">
+   <style:text-properties fo:font-size="17.8999996185303pt"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph">
+   <loext:graphic-properties fill="none" fill-color="#ffffff"/>
+   <style:text-properties fo:font-size="17.8999996185303pt"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+ </automatic-styles>
+ <master-styles>
+  <layer-set>
+   <layer name="layout"/>
+   <layer name="background"/>
+   <layer name="backgroundobjects"/>
+   <layer name="controls"/>
+   <layer name="measurelines"/>
+  </layer-set>
+  <style:master-page style:name="Default" style:page-layout-name="PM0" style-name="dp1"/>
+ </master-styles>
+ <body>
+  <drawing>
+   <page name="page1" style-name="dp2" master-page-name="Default">
+    <custom-shape style-name="gr1" text-style-name="P1" xml:id="id1" id="id1" layer="layout" svg:width="7.239cm" svg:height="2.797cm" transform="skewX (-0.00994837673636768) rotate (-0.00820304748437397) translate (1cm 18.018cm)">
+     <svg:title>ProceduralFunction</svg:title>
+     <svg:desc>Description of Procedural Function</svg:desc>
+     <shptext text:style-name="P1"><text:s/>Perform OCR</shptext>
+     <shptext text:style-name="P1">[DoOCRToText, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" mirror-horizontal="false" mirror-vertical="false" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <connector name="Arrow" style-name="gr2" text-style-name="P3" layer="layout" svg:x1="4.618cm" svg:y1="20.852cm" svg:x2="8.81cm" svg:y2="21.886cm" start-shape="id1" start-glue-point="2" end-shape="id2" end-glue-point="0" svg:d="M4618 20852v508h4192v526" svg:viewBox="0 0 4193 1035">
+     <svg:title>TitleOfArrow</svg:title>
+     <svg:desc>DescriptionOfArrow</svg:desc>
+     <shptext text:style-name="P2">[docStr]</shptext>
+    </connector>
+    <custom-shape style-name="gr3" text-style-name="P1" xml:id="id2" id="id2" layer="layout" svg:width="15.367cm" svg:height="1.573cm" transform="skewX (-0.00767944870877505) rotate (-0.0059341194567806) translate (1.127cm 21.828cm)">
+     <shptext text:style-name="P1">[SaveStringToFile, docStr, “./Attachments/”, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <custom-shape name="DestinationName" style-name="gr4" text-style-name="P1" xml:id="id8" id="id8" layer="layout" svg:width="12.293cm" svg:height="1.527cm" svg:x="7.122cm" svg:y="23.86cm">
+     <svg:title>DestinationShape</svg:title>
+     <svg:desc>DestinationShapeDescription</svg:desc>
+     <shptext text:style-name="P1">[SaveFile, “./Other/”, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <custom-shape style-name="gr5" text-style-name="P1" xml:id="id5" id="id5" layer="layout" svg:width="25.781cm" svg:height="2.037cm" svg:x="-2.014cm" svg:y="1.757cm">
+     <shptext text:style-name="P1">While</shptext>
+     <shptext text:style-name="P1">[GetNextEmail, “imap.gmail.com”, “EMAIL_ADDRESS”, “PASSWORD”, “Inbox”]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="5.953cm" svg:y1="10.017cm" svg:x2="4.619cm" svg:y2="18.055cm" start-shape="id3" start-glue-point="3" end-shape="id1" end-glue-point="0" svg:d="M5953 10017h-1334v8038" svg:viewBox="0 0 1335 8039">
+     <shptext text:style-name="P2">[“tiff”, ”jpg”, ”png”, ”jfif”, ”bmp”]</shptext>
+    </connector>
+    <frame style-name="gr6" text-style-name="P5" layer="layout" svg:width="0.101cm" svg:height="1.903cm" svg:x="10.854cm" svg:y="1.667cm">
+     <text-box>
+      <shptext text:style-name="P4"/>
+      <shptext text:style-name="P4"/>
+     </text-box>
+    </frame>
+    <custom-shape style-name="gr7" text-style-name="P1" xml:id="id4" id="id4" layer="layout" svg:width="7.435cm" svg:height="2.8cm" transform="skewX (-0.0102974425867665) rotate (-0.00820304748437397) translate (11.091cm 18.097cm)">
+     <svg:title>ProceduralFunction</svg:title>
+     <svg:desc>Description of Procedural Function</svg:desc>
+     <shptext text:style-name="P1"><text:s/>PDF to Text</shptext>
+     <shptext text:style-name="P1">[DoPDFToText, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" mirror-horizontal="false" mirror-vertical="false" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="15.859cm" svg:y1="10.017cm" svg:x2="14.808cm" svg:y2="18.136cm" start-shape="id3" start-glue-point="1" end-shape="id4" end-glue-point="0" svg:d="M15859 10017h501v4679h-1552v3440" svg:viewBox="0 0 1553 8120">
+     <shptext text:style-name="P2">[“pdf”]</shptext>
+    </connector>
+    <connector name="Arrow" style-name="gr2" text-style-name="P3" layer="layout" svg:x1="14.807cm" svg:y1="20.936cm" svg:x2="8.81cm" svg:y2="21.886cm" start-shape="id4" start-glue-point="2" end-shape="id2" end-glue-point="0" svg:d="M14807 20936v467h-5997v483" svg:viewBox="0 0 5998 951">
+     <svg:title>TitleOfArrow</svg:title>
+     <svg:desc>DescriptionOfArrow</svg:desc>
+     <shptext text:style-name="P2">[docStr]</shptext>
+    </connector>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="10.876cm" svg:y1="3.794cm" svg:x2="10.842cm" svg:y2="5.064cm" start-shape="id5" start-glue-point="2" end-shape="id6" end-glue-point="0" svg:d="M10876 3794v635h-34v635" svg:viewBox="0 0 35 1271">
+     <shptext text:style-name="P2">[emailXML]</shptext>
+    </connector>
+    <custom-shape style-name="gr8" text-style-name="P2" xml:id="id6" id="id6" layer="layout" svg:width="8.001cm" svg:height="2.54cm" svg:x="6.842cm" svg:y="5.064cm">
+     <shptext text:style-name="P2">While</shptext>
+     <shptext text:style-name="P2">[GetNextAttachment]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="10.842cm" svg:y1="7.604cm" svg:x2="10.906cm" svg:y2="8.747cm" start-shape="id6" start-glue-point="2" end-shape="id3" end-glue-point="0" svg:d="M10842 7604v572h64v571" svg:viewBox="0 0 65 1144">
+     <shptext text:style-name="P2">[docName]</shptext>
+    </connector>
+    <custom-shape style-name="gr9" text-style-name="P2" xml:id="id3" id="id3" layer="layout" svg:width="9.906cm" svg:height="2.54cm" svg:x="5.953cm" svg:y="8.747cm">
+     <shptext text:style-name="P2">[GetFileType, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <custom-shape style-name="gr10" text-style-name="P2" xml:id="id7" id="id7" layer="layout" svg:width="7.112cm" svg:height="2.921cm" transform="skewX (0.00471238898038469) rotate (0.00471238898038469) translate (6.588cm 14.97cm)">
+     <shptext text:style-name="P2">Word to Text</shptext>
+     <shptext text:style-name="P2">[DoDocToText, docName]</shptext>
+     <enhanced-geometry svg:viewBox="0 0 21600 21600" type="rectangle" enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+    </custom-shape>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="10.906cm" svg:y1="11.287cm" svg:x2="10.144cm" svg:y2="14.953cm" start-shape="id3" start-glue-point="2" end-shape="id7" end-glue-point="0" svg:d="M10906 11287v1824h-762v1842" svg:viewBox="0 0 763 3667">
+     <shptext text:style-name="P2">[“doc”,”docx”]</shptext>
+    </connector>
+    <connector style-name="gr2" text-style-name="P3" layer="layout" svg:x1="10.144cm" svg:y1="17.874cm" svg:x2="8.81cm" svg:y2="21.886cm" start-shape="id7" start-glue-point="2" end-shape="id2" end-glue-point="0" svg:d="M10144 17874v1991h-1334v2021" svg:viewBox="0 0 1335 4013">
+     <shptext text:style-name="P2">[docStr]</shptext>
+    </connector>
+    <connector style-name="gr11" text-style-name="P3" layer="layout" line-skew="-0.373cm" svg:x1="15.859cm" svg:y1="10.017cm" svg:x2="19.415cm" svg:y2="24.623cm" start-shape="id3" start-glue-point="1" end-shape="id8" svg:d="M15859 10017h3683v14606h-127" svg:viewBox="0 0 3684 14607">
+     <shptext text:style-name="P2">[(ELSE)]</shptext>
+    </connector>
+   </page>
+  </drawing>
+ </body>
+</document>
