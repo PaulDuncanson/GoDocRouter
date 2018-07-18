@@ -1,6 +1,6 @@
 # GoDocRouter
 GoDocRouter is an application framework written in Golang that routes documents and images through a configurable workflow process.<p>
-This workflow defines the order of events by utilizing the Open Source designer tool, <a href=https://en.wikipedia.org/wiki/LibreOffice>LibreOffice</a>, with corresponding connected shapes.<p>
+This workflow defines the order of events by utilizing the Open Source designer tool, <a href=https://en.wikipedia.org/wiki/LibreOffice>LibreOffice Draw</a>, with corresponding connected shapes.<p>
 <p align="center">
   <img src="./GoDocRouter.png" width="500"/>
 </p>
