@@ -1,9 +1,8 @@
-// main - Engine that drives invocation of DAG processes
+// main - Engine that concurrently invokes DAG processes
 // Author: Paul Duncanson 07/15/2018
 package main
 
 import (
-	forceExport "DocRouter/forceexport"
 	opCodeFuncs "DocRouter/opcodefuncs"
 	opCodeML "DocRouter/opcodeml"
 	"flag"
@@ -16,37 +15,13 @@ import (
 // BuildShapeToFuncMap - binds corresponding function with each shape id.
 //   input:   nameToShape - Key funcName with shapeID Value
 //   returns: Key shapeID with function pointer Value
-func BuildShapeToFuncMap(nameToShape map[string]string) map[string]func(interface{}, string) {
-	shapeToFunc := make(map[string]func(interface{}, string))
+func BuildShapeToFuncMap(nameToShape map[string]string) map[string]func(string, chan<- string) {
 
-	message := make(chan string)
+	nameToFunc := opCodeFuncs.GetNameToFunc()
+	shapeToFunc := make(map[string]func(string, chan<- string))
 
-	// Need to explicitly call each of the operands to force inclusion of routines in symbolic link table.
-	// CAD Engine does not, by design, statically invoke opCode routines as invocation is determined at run time.
-	// Locate Linker flag to override optimization at specific package level when there's time!!!!!
-	opCodeFuncs.SaveFile("", message)
-	opCodeFuncs.DoOCRToText("", message)
-	opCodeFuncs.DoPDFToText("", message)
-	opCodeFuncs.SaveStringToFile("", message)
-	opCodeFuncs.GetNextEmail("", message)
-	opCodeFuncs.GetFileType("", message)
-	opCodeFuncs.GetNextAttachment("", message)
-	opCodeFuncs.DoDocToText("", message)
-
-	for funcName, shapeID := range nameToShape {
-		funcNameWPkg := "DocRouter/opcodefuncs." + funcName
-		fmt.Printf("Going to search for %s\n", funcNameWPkg)
-
-		var funcPtr func(interface{}, string)
-
-		err := forceExport.GetFunc(&funcPtr, funcNameWPkg)
-		if err == nil {
-			shapeToFunc[shapeID] = funcPtr
-			fmt.Println("Found:", funcNameWPkg, funcName)
-		} else {
-			fmt.Println("Missing function specified in DAG:", funcNameWPkg, funcName)
-			//log.Fatal("Missing function specified in DAG as:", funcName, " for ", funcNameWPkg) // !!!!! for production
-		}
+	for eachNameToShapeKey, eachNameToShapeValue := range nameToShape {
+		shapeToFunc[eachNameToShapeValue] = nameToFunc[eachNameToShapeKey]
 	}
 
 	return shapeToFunc
@@ -62,45 +37,50 @@ func CADEngine(dag opCodeML.DAG, opCodeTable map[string]string, startShape strin
 	nameToShape, shapeToName := opCodeML.BuildNameAndShapeMaps(opCodeTable)
 	shapeToFunc := BuildShapeToFuncMap(nameToShape)
 
-	fmt.Printf("%s\n%s\n", nameToShape, shapeToName)
-
 	shapeToArgs := opCodeML.BuildShapeToArgs(dag)
 	shapeToToConnectors := opCodeML.BuildShapeToToConnectors(dag)
 
-	fmt.Println(shapeToToConnectors)
-	//toConnectorToMsgs := opCodeML.BuildToConnectorToArgs(dag.Connectors)
+	for shapeToToConnectorsKey, shapeToToConnectorsValue := range shapeToToConnectors {
+		fmt.Printf("shapeToToConnectors[%s] is %s\n", shapeToToConnectorsKey, shapeToToConnectorsValue)
+	}
 
 	quit := make(chan bool)
 	message := make(chan string)
-	count := make(chan string)
 
-	maxCount := 100 // number of email attachements to process
+	maxCount := 20 // number of email attachements to process
 	currentShapeID := startShape
 
-	type OpCodeFuncType func(interface{}, string)
-	var opCodeFunc OpCodeFuncType
+	fmt.Printf("======================== Setup Complete ========================\n")
 
 	go func() {
+
+		fmt.Printf("'%s', '%s'(%s)\n", currentShapeID, shapeToName[currentShapeID], shapeToArgs[currentShapeID])
+		go shapeToFunc[currentShapeID](shapeToArgs[currentShapeID], message)
 
 		// While count is less then maxCount trips through DAG
 		for cnt := 0; cnt < maxCount; {
 
 			select {
 			case msg := <-message:
-				currentShapeID = shapeToToConnectors[msg]
-				opCodeFunc = shapeToFunc[currentShapeID]
-				go opCodeFunc(nil, shapeToArgs[currentShapeID])
-			case <-count:
-				cnt++
-				currentShapeID = startShape
-				opCodeFunc = shapeToFunc[currentShapeID]
-				go opCodeFunc(nil, shapeToArgs[currentShapeID])
+				fmt.Printf("returned - '%s'\n", msg)
+				if msg != "LastShape" {
+					currentShapeID = shapeToToConnectors[msg]
+				} else {
+					cnt++
+					fmt.Printf("Processed %d attachments\n", cnt)
+					currentShapeID = startShape
+				}
+				fmt.Printf("'%s', '%s'(%s)\n", currentShapeID, shapeToName[currentShapeID], shapeToArgs[currentShapeID])
+
+				go shapeToFunc[currentShapeID](shapeToArgs[currentShapeID], message)
 			}
 		}
+		fmt.Printf("============= Successfully performed %d DAG cycles =============\n", maxCount)
 		quit <- true
 	}()
 
-	<-quit // Hold up main thread until CADEngine loop has processed maxCount attachments
+	<-quit // Block main thread until CADEngine has processed maxCount attachments
+
 	return 0
 }
 
@@ -115,7 +95,7 @@ var (
 )
 
 func main() {
-
+	fmt.Printf("========================= Setup Start ==========================\n")
 	flag.Parse()
 
 	// For random channel communications from the OpCode routine, getFileType, that triggers the fan-out.

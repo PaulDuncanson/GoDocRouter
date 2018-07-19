@@ -112,6 +112,7 @@ func BuildShapeToToConnectors(dag DAG) map[string]string {
 	shapeToToConnectors := make(map[string]string)
 	for i := 0; i < len(dag.Connectors); i++ {
 		shapeToToConnectors[dag.Connectors[i].FromShape+dag.Connectors[i].Value] = dag.Connectors[i].ToShape
+		fmt.Printf("shapeToToConnector %s, %s\n", dag.Connectors[i].FromShape+dag.Connectors[i].Value, dag.Connectors[i].ToShape)
 	}
 	return shapeToToConnectors
 }
