@@ -17,21 +17,21 @@ func GetNameToFunc() map[string]func(string, chan<- string) {
 
 	// SaveFile - Saves the specified file and returns success in channel
 	saveFile := func(fileName string, message chan<- string) {
-		time.Sleep(6 * time.Second)
+		time.Sleep(4 * time.Second)
 		message <- "LastShape"
 	}
 	nameToFunc["SaveFile"] = saveFile
 
 	// DoOCRToText - Converts OCR to Text using Tesseract
 	doOCRToText := func(ocrName string, message chan<- string) {
-		time.Sleep(20 * time.Second)
+		time.Sleep(4 * time.Second)
 		message <- "id1[docStr]"
 	}
 	nameToFunc["DoOCRToText"] = doOCRToText
 
 	// DoPDFToText - Converts PDF to Text using Tesseract
 	doPDFToText := func(pdfName string, message chan<- string) {
-		time.Sleep(10 * time.Second)
+		time.Sleep(3 * time.Second)
 		message <- "id4[docStr]"
 	}
 	nameToFunc["DoPDFToText"] = doPDFToText

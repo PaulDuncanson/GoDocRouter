@@ -47,7 +47,7 @@ func CADEngine(dag opCodeML.DAG, opCodeTable map[string]string, startShape strin
 	quit := make(chan bool)
 	message := make(chan string)
 
-	maxCount := 20 // number of email attachements to process
+	maxCount := 10 // number of email attachements to process
 	currentShapeID := startShape
 
 	fmt.Printf("======================== Setup Complete ========================\n")
@@ -67,7 +67,7 @@ func CADEngine(dag opCodeML.DAG, opCodeTable map[string]string, startShape strin
 					currentShapeID = shapeToToConnectors[msg]
 				} else {
 					cnt++
-					fmt.Printf("Processed %d attachments\n", cnt)
+					fmt.Printf("---------------- Processed %02d of %d attachments ---------------\n", cnt, maxCount)
 					currentShapeID = startShape
 				}
 				fmt.Printf("'%s', '%s'(%s)\n", currentShapeID, shapeToName[currentShapeID], shapeToArgs[currentShapeID])
